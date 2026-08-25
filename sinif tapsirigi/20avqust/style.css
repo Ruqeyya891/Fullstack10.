@@ -1,0 +1,135 @@
+/* task1 */
+.text{
+    color: rgb(76, 223, 36);
+    background-color: rgb(87, 17, 200);
+}
+#text1{
+     color: rgb(175, 124, 146);
+    background-color: rgb(184, 228, 61);
+}
+.text3{
+    color: rgb(216, 51, 122) !important;
+    background-color: rgb(94, 217, 64);
+}
+.text4{
+    color: rgb(195, 24, 98) !important;
+    background-color: rgb(227, 234, 226);
+}
+
+/* task2 */
+.lorem1{
+    color: aliceblue;
+    background-color: rgb(178, 23, 216);
+}
+
+/* task3 */
+.products {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    width: 240px;
+    padding: 25px;
+    border: 4px solid rgb(18, 17, 17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(10, 31, 38);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* task4 */
+
+h2 {
+    color: blue;
+}
+p {
+    color: rgb(16, 7, 10) !important;
+}
+p {
+    color: rgb(207, 41, 41);
+}
+
+span {
+    color: rgb(14, 195, 14);
+}
+
+
+button {
+    background-color: rgb(213, 77, 77);
+    border: 1px solid blue;
+    padding: 8px 15px;
+}
+
+.product-card {
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid rgb(41, 213, 219);
+}
+
+.product-card span {
+    color: red;
+}
+
+#special-card {
+    background-color: rgb(49, 185, 21);
+}
+
+/* task5 */
+
+table {
+    background-color: rgb(225, 236, 18);
+}
+
+td {
+    background-color: white;
+}
+
+.book-name {
+    color: rgb(167, 61, 13);
+}
+
+.price1 {
+    color: rgb(231, 249, 33);
+}
+
+.price2 {
+    color: green;
+}
+
+.price3 {
+    color: blue;
+}
+
+.price4 {
+    color: orange;
+}
+
+.special-book {
+    background-color: pink;
+}
+
+#special {
+    color: rgb(42, 191, 26);
+}
+
+img {
+    width: 100px;
+    height: 120px;
+}
