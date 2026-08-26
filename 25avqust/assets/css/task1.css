@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3f2ec;
+    color: #000000;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.about {
+    text-align: center;
+}
+
+h1 {
+    color: #0914da;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.about p {
+    color: #000000;
+    font-size: 18px;
+}
+.about img {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+.registration {
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    font-weight: bold;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    padding: 12px;
+    background-color: #0d52b8;
+    color: white;
+    border: 1px solid #383f48;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.price {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 10px;
+}
+.price strong {
+    color: #0d47a1;
+    font-size: 22px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #0d47a1;
+    color: white;
+}

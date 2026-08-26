@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #acc596;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.restaurant {
+    text-align: center;
+}
+
+.restaurant h1 {
+    color: #a00505;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.restaurant img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.restaurant p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.foods {
+    margin-top: 30px;
+}
+
+.foods h2,
+.order h2,
+.working-hours h2 {
+    color: #770c0c;
+    font-size: 25px;
+}
+
+.food-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #fffaf5;
+}
+
+.food-card img {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.food-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.food-card p {
+    color: #666;
+    font-size: 16px;
+}
+
+.food-card strong {
+    color: #5ab539;
+    font-size: 20px;
+}
+
+.order {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.order form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order label {
+    font-weight: bold;
+}
+
+.order input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.order button {
+    padding: 12px;
+    background-color: #427713;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.working-hours {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color:#a00505;
+    color: white;
+    font-weight: bold;
+}
