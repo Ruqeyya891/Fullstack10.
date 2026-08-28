@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    background-image: url(https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/standard/articles/bg-image/10.webp);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 170px;
+    padding-left: 200px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    font-family: Josefin Sans;
+}
+
+.text h2 {
+    font-family: Valley Sans;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.text .text1 {
+    font-size: 13px;
+    font-family: Raleway;
+    margin-bottom: 5px;
+}
+
+.text .text2 {
+    margin-top: 0;
+}
+
+.buttnbox .dis,
+.lrn {
+    height: 50px;
+    width: 150px;
+    font-family: Josefin Sans;
+    border-radius: 8px;
+}
+
+.buttnbox .dis {
+    color: black;
+    background-color: #F5C24B;
+    border: 1px solid black;
+    width: 170px;
+    cursor: pointer;
+}
+
+.buttnbox .lrn {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.buttnbox {
+    display: flex;
+    gap: 10px;
+}
+
+.buttnbox .dis:hover {
+    transition: 0.4s;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.buttnbox .lrn:hover {
+    transition: 0.4s;
+    background-color: #F5C24B;
+    color: black;
+}
