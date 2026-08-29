@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .container {
-    background-image: url(https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/content/en/_mdb5/standard/articles/bg-image/10.webp);
+    background-image: url(https://img.magnific.com/premium-photo/adventure-game-background_670382-245812.jpg?semt=ais_hybrid&w=740&q=80);
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,13 +68,14 @@
 
 .buttnbox {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .buttnbox .dis:hover {
     transition: 0.4s;
     background-color: transparent;
-    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(247, 243, 243);
 }
 
 .buttnbox .lrn:hover {
