@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Aplication</title>
+    <link rel="stylesheet" href="assets/css/task1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>Job Application</h2>
+            <form class="form" action="submit.php" method="post" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" placeholder="Enter your surname" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea><br>
+                <label for="cv">CV:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required><br>
+                <label for="position">Vəzifə:</label>
+                <select name="position" id="position" required>
+                    <option value="">Vəzifə seçin</option>
+                    <option value="developer">Frontend Developer</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="qa">QA Engineer</option>
+                    <option value="designer">UI/UX Designer</option>
+                </select><br>
+                <button type="submit" class="submit">Submit</button>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

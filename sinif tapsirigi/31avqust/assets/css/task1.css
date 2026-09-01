@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    background-color: #83dcde;
+    border: 3px solid #75bbba;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form h2 {
+    text-align: center;
+    color: #3f95b2;
+}
+
+.form label {
+    font-size: 20px;
+    color: #3f95b2;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.submit{
+    width: 50%;
+    padding: 12px;
+    background-color: #3ec2da;
+    color: #fff;
+    border: 1px solid #0d6e8f;
+    border-radius: 4px;
+    cursor: pointer;
+}
