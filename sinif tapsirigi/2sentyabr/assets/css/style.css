@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 82%;
+    height: 85px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    z-index: 10;
+}
+
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 38px;
+}
+
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #111111;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+
+.call a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+    color: #ea3325;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.call img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.language select {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.signbutton {
+    border: none;
+
+    padding: 12px 22px;
+
+    background-color: #ea3325;
+    color: #ffffff;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+
+/* HERO */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+
+    background-color: #e9322d;
+}
