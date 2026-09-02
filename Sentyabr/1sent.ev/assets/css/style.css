@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 121px;
+    margin-top: 21px;
+}
+
+/* HEADER START */
+
+.header {
+    margin-bottom: 100px;
+}
+
+.header img {
+    width: 112px;
+    height: 66px;
+}
+
+/* HERO START*/
+
+.hero_section img {
+    width: 22px;
+    height: 21px;
+}
+
+.hero__icon__container {
+    display: flex;
+    gap: 20px;
+}
+
+.hero__icon__item {
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.hero__content {
+    display: flex;
+    gap: 310px;
+    margin-top: 29px;
+}
+
+.hero__content__text span {
+    font-family: Roboto sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero__content__text p {
+    font-family: Roboto sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.hero__content__img img {
+    width: 304px;
+    height: 357px;
+}
+
+.hero__content_box_container {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left:409px;
+    margin-top: 50px;
+    margin-bottom: 173px;
+}
+
+.hero__content__box {
+    background-color: #1E4881;
+    color: #ffffff;
+    padding: 10px 10px;
+    width: 483px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+.content-text {
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.author {
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+
+}
+
+
+/* about */
+
+.about {
+    padding: 80px 0;
+}
+
+.about-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-title {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 24px;
+    color: #000000;
+}
+
+.about-text p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.about-image {
+    flex: 0 0 350px;
+    margin-top: 50px;
+    margin-right: 153px;
+}
+
+.about-image img {
+    width: 314px;
+    height: 315px;
+
+}
+
+.about-features {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.about-man-img img {
+    width: 232px;
+    height: 203px;
+    margin-top: 40px;
+    margin-right: 132px;
+}
+
+.about__features__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.feature {
+    text-align: left;
+    max-width: 140px;
+}
+
+.feature h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+}
+
+.feature p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #000000;
+    margin: 0;
+}
+
+
+
+.lesson-format {
+    margin: 0 auto;
+    padding-top:162px;
+}
+
+.lesson-format header h2 {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 63px;
+    color: #000;
+}
+
+.lesson-format-content {
+    display: flex;
+   gap: 200px;
+    align-items: flex-start;
+}
+
+.lesson-item h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #1E4681;
+    margin-bottom: 8px;
+}
+
+.lesson-item p {
+    font-family:Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+
+/* section4 */
+
+.what-learn {
+    margin: 150px auto 0;
+    padding-bottom: 50px;
+}
+
+.what-learn header h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.what-learn-content ul {
+    margin: 0;
+
+}
+
+.what-learn-content li {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #000;
+    margin-bottom: 3px;
+    max-width: 650px;
+}
