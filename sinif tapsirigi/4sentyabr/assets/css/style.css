@@ -1,0 +1,246 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: Arial, sans-serif;
+}
+
+
+main {
+    flex: 1;
+}
+
+
+footer {
+    width: 100%;
+
+    background-color: #000;
+
+    color: #fff;
+}
+
+
+.footer-container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 55px 0 50px;
+    display: grid;
+    grid-template-columns:
+        1.3fr
+        1.2fr
+        1.2fr
+        1.2fr
+        1.3fr;
+
+    column-gap: 70px;
+}
+
+
+.footer-column {
+    min-width: 0;
+}
+
+
+.footer-column h3 {
+    font-size: 16px;
+
+    font-weight: 500;
+
+    margin-bottom: 25px;
+}
+
+
+
+.exclusive h3 {
+    font-size: 20px;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.exclusive h4 {
+    font-size: 16px;
+
+    font-weight: 500;
+
+    margin-bottom: 25px;
+}
+
+
+.footer-column p {
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin-bottom: 16px;
+}
+
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 18px;
+}
+
+.footer-column a {
+    color: #fff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+
+.email-box {
+    width: 173px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.email-box input {
+    width: 125px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.email-box input::placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+.email-box button {
+    width: 40px;
+    height: 100%;
+    border: none;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-box button i {
+    font-size: 18px;
+}
+
+
+.download-app h3 {
+    margin-bottom: 18px;
+}
+
+.app-text {
+    color: #999;
+
+    font-size: 11px !important;
+
+    margin-bottom: 8px !important;
+}
+
+
+.download-app {
+    width: 300px;
+}
+
+.download-app h3 {
+    font-size: 22px;
+    font-weight: 500;
+
+    margin-bottom: 45px;
+}
+
+
+
+.app-text {
+    color: #999;
+
+    font-size: 16px !important;
+
+    margin-bottom: 20px !important;
+
+    white-space: nowrap;
+}
+
+
+.app-download {
+    display: flex;
+    align-items: flex-start;
+
+    /* gap: 15px; */
+}
+
+
+.qr-code {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    flex-shrink: 0;
+}
+
+
+.store-buttons {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.store-buttons img {
+    width: 200px;
+    height: 100px;
+    /* display: block; */
+    object-fit: contain;
+}
+
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
