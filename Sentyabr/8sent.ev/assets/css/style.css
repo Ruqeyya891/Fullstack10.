@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.scene {
+    height: 110vh;
+    background-image: url("/Sentyabr/8sent.ev/assets/images/background.jpeg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.sun {
+    width: 90px;
+    height: 90px;
+    background-color: #ffd43b;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    animation: sunMove 8s linear infinite;
+}
+  
+
+@keyframes sunMove {
+
+    from {
+        right: 70px;
+    }
+
+    to {
+        right: 600px;
+    }
+
+}
+
+
+.cloud {
+    position: absolute;
+
+    width: 150px;
+    height: 70px;
+
+    animation: cloudMove 10s linear infinite;
+}
+
+
+.cloud span {
+    position: absolute;
+
+    width: 70px;
+    height: 45px;
+
+    background-color: white;
+
+    border-radius: 50px;
+}
+
+
+.cloud span:nth-child(1) {
+    left: 0;
+    top: 20px;
+}
+
+
+.cloud span:nth-child(2) {
+    left: 35px;
+    top: 0;
+}
+
+
+.cloud span:nth-child(3) {
+    left: 70px;
+    top: 20px;
+}
+
+
+.cloud-1 {
+    top: 100px;
+    left: 250px;
+}
+
+
+.cloud-2 {
+    top: 160px;
+    left: 550px;
+}
+
+
+.cloud-3 {
+    top: 120px;
+    left: 850px;
+}
+
+
+@keyframes cloudMove {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-300px);
+    }
+
+}
+
+
+
+.changan{
+    position: absolute;
+    width: 200px;
+    top: 89%;
+    left: 30%;
+    animation: carMove 6s linear infinite;
+}
+
+.changan .car{
+    width: 210px;
+}
+
+@keyframes carMove {
+
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 100%;
+    }
+
+}
