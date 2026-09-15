@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div p{
+    font-size: 50px;
+    color: #c931cb;
+    text-align: center;
+    margin-top: 300px;
+    
+}
+
+.left-line{
+    width: 100px;
+    height: 2px;
+    background-color: #db091a;
+    position: fixed;
+    left: 400px;
+    top: 344px;
+}
+
+.right-line{
+    width: 100px;
+    height: 2px;
+    background-color: #db091a;
+    position: fixed;
+    right: 400px;
+    top: 344px;
+}
