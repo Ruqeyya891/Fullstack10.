@@ -162,11 +162,13 @@ form button {
 
 .social {
     display: flex;
+    margin-left: 20px;
     align-items: center;
     gap: 25px;
     color: #d97943;
 
     a {
+        
         width: 25px;
         height: 25px;
         display: flex;
