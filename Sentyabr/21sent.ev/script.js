@@ -22,7 +22,7 @@ if (mascara >= 15) {
 else if (mascara >= 8 && mascara <= 12) {
     console.log("Bu orta qiymətli maskaradır")
 }
-else if (mascara < 3) {
+else if (mascara <= 3) {
     console.log("Bu maskara ucuzdur")
 }
 
