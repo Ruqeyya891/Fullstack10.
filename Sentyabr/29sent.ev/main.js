@@ -17,3 +17,5 @@ for(let i = 0; i < sentence.length; i++) {
 }
 console.log("Boyuk herflerin sayi:", boyuk);
 console.log("Kicik herflerin sayi:", kicik);
+
+
