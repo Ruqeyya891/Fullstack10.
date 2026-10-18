@@ -1,0 +1,22 @@
+div{
+    background-color: rgb(67, 6, 82);
+    width: 120px;
+    height: 120px;
+    transition:0.6s;
+}
+
+.moveRight{
+ transform: translateX(200px);
+}
+
+.moveDown{
+    transform: translate(200px, 200px);
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.changeColor{
+  background-color:rgb(192, 13, 205);
+}
