@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>Məhsullar</h1>
+
+        <div class="sort-container">
+            <label for="sortSelect">Qiymətə görə sırala:</label>
+
+            <select id="sortSelect">
+                <option value="default">Sıralama seç</option>
+                <option value="asc">Azdan-çoxa</option>
+                <option value="desc">Çoxdan-aza</option>
+            </select>
+        </div>
+        <div class="products-container">
+            <div id="products" class="products"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
