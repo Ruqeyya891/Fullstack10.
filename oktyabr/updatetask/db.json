@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Əhməd",
+      "surname": "Əhmədov",
+      "age": 20,
+      "id": "pWp2Lj5Oo2s"
+    },
+    {
+      "name": "Rüqəyya",
+      "surname": "Əhmədzadə",
+      "age": 18,
+      "id": "6ShpHkmhCGk"
+    },
+    {
+      "name": "Əsnad",
+      "surname": "Əhmədzadə",
+      "age": 14,
+      "id": "xIVU5Up_f9g"
+    },
+    {
+      "name": "Zeynəb",
+      "surname": "Əhmədzadə",
+      "age": 12,
+      "id": "Ao_hhtsLmoo"
+    },
+    {
+      "name": "Xədicə",
+      "surname": "Əhmədzadə",
+      "age": 6,
+      "id": "QIf9u_pocew"
+    },
+    {
+      "name": "Hüseyn",
+      "surname": "Əhmədzadə",
+      "age": 4,
+      "id": "pAAgTLxmoQA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
