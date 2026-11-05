@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 50px 20px;
+}
+
+.product-card {
+  width: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 15px;
+}
+p {
+  margin-top: 10px;
+  color: gray;
+}
+
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.actions button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #64748b;
+}
+
+.active-like {
+  color: blue !important;
+}
+
+.active-dislike {
+  color: red !important;
+}
+
+.active-heart {
+  color: deeppink !important;
+}
