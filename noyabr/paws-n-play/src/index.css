@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:wght@100..900&display=swap');
+
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--color-surface);
+  color: var(--color-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-fredoka);
+}
