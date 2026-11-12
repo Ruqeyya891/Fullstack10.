@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans text-gray-700 bg-white;
+}
+
+.container-x {
+  @apply mx-auto w-full max-w-7xl px-4;
+}
