@@ -1,0 +1,9 @@
+export default function FeatureItem({ icon, title, text }) {
+  return (
+    <div className="feature">
+      <div className="feature-icon">{icon}</div>
+      <h3>{title}</h3>
+      <p>{text}</p>
+    </div>
+  )
+}

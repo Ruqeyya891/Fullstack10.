@@ -1,0 +1,52 @@
+.article-top {
+    padding-block: 40px;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    p {
+        max-width: 620px;
+        color: #444;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    img {
+        width: 100%;
+        aspect-ratio: 2 / 1;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+}
+
+.article-text {
+    max-width: 650px;
+    margin: 48px auto;
+    padding-inline: 24px;
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+}
+
+.article-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+    img {
+        width: 100%;
+        aspect-ratio: 10 / 7;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+
+.related .card img {
+    aspect-ratio: 7 / 6;
+}
